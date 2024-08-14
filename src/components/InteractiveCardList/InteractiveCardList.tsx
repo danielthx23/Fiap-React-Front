@@ -36,7 +36,7 @@ function InteractiveCardList() {
     const listaProdutos: Produto[] = [produto1, produto2, produto3, produto4, produto5]
     return (
         <div className='lista-de-produtos'>
-            <h1 className='lista-titulo'>Componente de informações básicas e lista estática de usuários</h1>
+            <h1 className='lista-titulo'>Componente de card interativo e lista estática de produtos</h1>
 
             <div className='lista-produtos'>
                 {listaProdutos.map((produto) => (
