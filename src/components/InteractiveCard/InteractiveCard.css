@@ -49,14 +49,14 @@
     color: white;
     font-size: 1rem;
     font-weight: 400;
-    background-color: rgba(4, 201, 255, 0.5);
+    background-color: rgb(4, 201, 255);
     cursor: pointer;
     transition: all 200ms ease-in-out;
 }
 
 .card-interativo button:hover {
     background-color: transparent;
-    outline: 2px inset rgba(4, 201, 255, 0.5);
-    color: rgba(4, 201, 255, 0.5);
+    outline: 2px inset rgb(4, 201, 255);
+    color: rgb(4, 201, 255);
     font-weight: 500;
 }
